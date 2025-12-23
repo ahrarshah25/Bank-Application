@@ -117,7 +117,7 @@ const [passwordChecks, setPasswordChecks] = useState({
         console.log("All done");
         window.Swal.fire({
           title: "Success!",
-          text: "Signup Successfully!\nWelcome " + displayName,
+          text: "Signup Successfully!",
           icon: "success"
         });
 
@@ -292,7 +292,7 @@ const [passwordChecks, setPasswordChecks] = useState({
     ✔ One special character
   </div>
 </div>
-
+</div>
 
           <div className="form-group">
             <label htmlFor="confirmPassword" className="required">
